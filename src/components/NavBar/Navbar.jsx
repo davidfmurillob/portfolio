@@ -12,8 +12,10 @@ const Navbar = () => {
   return (
     <>
       <Navigation />
+      <div className="absolute w-full"> 
 
       <MobileNavigation />
+      </div>
       <SideNav
         linkedInURL={linkedInURL}
         githubURL={githubURL}

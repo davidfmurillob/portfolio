@@ -1,10 +1,14 @@
 import React from "react";
 import {Link} from 'react-scroll';
 import {FaArrowDown} from 'react-icons/fa'
+import ReactTyped from "react-typed";
 
 const Hero = () => {
+
+  const typedString = 'I\'m a ' 
+
   return (
-    <div className=" text-white flex flex-col justify-center items-center h-[90vh] p-2sm:px-14 md:px-16 lg:px-32 xl:px-44">
+    <div className=" text-white flex flex-col justify-center items-center h-[100vh] sm:h-[90vh] p-2sm:px-14 md:px-16 lg:px-32 xl:px-44">
       <h2 className="text-2xl sm:text-3xl text-yellow-500 pt-2 text-center">
         Hi, <span className="text-slate-300">mi name is</span>
       </h2>
@@ -12,12 +16,15 @@ const Hero = () => {
         David Murillo
       </h1>
 
-      <h3 className="text-xl sm:text-2xl text-center">
-        I'm a <span className="text-yellow-500">front-end</span> software
-        developer!
-      </h3>
-      <br></br>
-      <p className="text-center">
+      <p className="text-xl sm:text-2xl text-center text-slate-300 mt-2">{typedString}
+      <ReactTyped className="text-yellow-500"
+              strings={['Front-end developer', 'web developer']}
+              typeSpeed={80}
+              backSpeed={80}
+              loop
+            />
+      </p>
+      <p className="text-center text-slate-300 mt-4">
         I'm a person which is always learning new things about technologies and the software development world.  
       </p>
       <Link
