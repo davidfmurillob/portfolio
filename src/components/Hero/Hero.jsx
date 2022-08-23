@@ -5,11 +5,13 @@ import ReactTyped from "react-typed";
 import './hero.css'
 
 const Hero = () => {
+  
+  
 
   const typedString = 'I\'m a ' 
 
   return (
-    <div className=" text-white flex flex-col justify-center items-center h-[100vh] sm:h-[90vh] p-2 sm:px-14 md:px-16 lg:px-32 xl:px-44 ">
+    <div data-aos="zoom-in" className=" text-white flex flex-col justify-center items-center h-[100vh] sm:h-[90vh] p-2 sm:px-14 md:px-16 lg:px-32 xl:px-44 ">
       <h2 className="text-2xl sm:text-3xl text-yellow-500 pt-2 text-center mb-2">
         Hi <span class="wave">👋</span><span className="text-slate-300"> mi name is</span>
       </h2>
@@ -26,7 +28,7 @@ const Hero = () => {
             />
       </p>
       <p className="text-center text-slate-300 mt-4">
-        I'm a person which is always learning new things about technologies and the software development world.  
+      Someone who is always learning new things about technology and the world of software development.  
       </p>
       <Link
         className="animate-bounce h-12 px-8 mt-12 inline-flex items-center text-slate-200 transition-colors duration-150 border border-yellow-500 rounded-lg focus:shadow-outline hover:cursor-pointer hover:bg-yellow-500 hover:text-mygray-600"

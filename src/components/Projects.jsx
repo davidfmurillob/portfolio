@@ -3,7 +3,7 @@ import projects from "./data/projects";
 
 const Projects = () => {
   return (
-    <div id="projects" className="p-4 mt-6 sm:px-14 md:px-16 lg:px-32 xl:px-44">
+    <div data-aos="fade-right" id="projects" className="p-4 mt-6 sm:px-14 md:px-16 lg:px-32 xl:px-44">
       <h2 className="text-slate-300 sm:text-center text-4xl font-medium">
         My personal
       </h2>

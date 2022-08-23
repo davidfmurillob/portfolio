@@ -6,7 +6,7 @@ const About = () => {
   const curriculumURL = 'https://drive.google.com/file/d/10hrUhyy8bpAVzWCNAnQyPMwMYLzGqtn6/view?usp=sharing'
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 py-2 sm:px-14 md:px-16 lg:px-32 xl:px-44 h-4/5">
+    <div data-aos="fade-right" className="grid grid-cols-1 md:grid-cols-2 py-2 sm:px-14 md:px-16 lg:px-32 xl:px-44 h-4/5">
           <div className="max-w-md sm:max-w-lg flex items-center">
             {/* aplicarle a la imagen un max width revisar el tutorial */}
             <img

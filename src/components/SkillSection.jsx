@@ -12,7 +12,8 @@ import bootstrap_icon from "../assets/bootstrap-5.png";
 const SkillSection = () => {
   return (
     <>
-      <section
+      <section 
+      data-aos="fade-right"
         id="skills"
         className="container mx-auto mt-10 pt-10 sm:px-6 md:px-12 lg:px-24 xl:px-32 h-full"
       >

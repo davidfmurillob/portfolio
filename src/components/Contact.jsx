@@ -4,6 +4,7 @@ import contact_img from "../assets/ilustrations/undraw_developer_activity.svg";
 const Contact = () => {
   return (
     <div
+    data-aos="fade-down"
       id="contact"
       className="grid grid-cols-1 md:grid-cols-2 p-8 gap-8 my-24 sm:px-14 md:px-16 lg:px-32 xl:px-44"
     >
