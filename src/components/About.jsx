@@ -23,7 +23,7 @@ const About = () => {
             </p>
             <div>
               <Link
-                className="h-12 px-5 mt-8 mr-3 inline-flex items-center text-slate-200 transition-colors duration-150 border border-yellow-500 rounded-lg focus:shadow-outline hover:bg-yellow-500 hover:text-mygray-600"
+                className="h-12 px-5 mt-8 mr-3 inline-flex items-center text-slate-200 cursor-pointer transition-colors duration-150 border border-yellow-500 rounded-lg focus:shadow-outline hover:bg-yellow-500 hover:text-mygray-600"
                 to="contact" spy={true} smooth={true} offset={10} duration={700}
               >
                 Contact me

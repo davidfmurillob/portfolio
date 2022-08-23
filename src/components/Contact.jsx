@@ -4,11 +4,11 @@ import contact_img from "../assets/ilustrations/undraw_developer_activity.svg";
 const Contact = () => {
   return (
     <div
-    data-aos="fade-down"
-      id="contact"
+    data-aos="fade-right"
+    id="contact"
       className="grid grid-cols-1 md:grid-cols-2 p-8 gap-8 my-24 sm:px-14 md:px-16 lg:px-32 xl:px-44"
     >
-      <div className="flex flex-col  ">
+      <div className="flex flex-col">
         <p className="inline border-b-4 border-yellow-400 text-2xl text-slate-200 w-full sm:w-4/5">
           Contact me!
         </p>

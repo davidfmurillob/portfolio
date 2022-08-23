@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <>
       <Navigation />
-      <div className="absolute w-full"> 
+      <div className="absolute w-full z-10"> 
 
       <MobileNavigation />
       </div>

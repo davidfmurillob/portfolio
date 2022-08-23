@@ -4,16 +4,14 @@ import {FaArrowDown} from 'react-icons/fa'
 import ReactTyped from "react-typed";
 import './hero.css'
 
-const Hero = () => {
-  
-  
+const Hero = () => {  
 
   const typedString = 'I\'m a ' 
 
   return (
-    <div data-aos="zoom-in" className=" text-white flex flex-col justify-center items-center h-[100vh] sm:h-[90vh] p-2 sm:px-14 md:px-16 lg:px-32 xl:px-44 ">
+    <div data-aos="zoom-in" className="text-white flex flex-col justify-center items-center h-[100vh] sm:h-[90vh] p-2 sm:px-14 md:px-16 lg:px-32 xl:px-44 ">
       <h2 className="text-2xl sm:text-3xl text-yellow-500 pt-2 text-center mb-2">
-        Hi <span class="wave">👋</span><span className="text-slate-300"> mi name is</span>
+        Hi! <span className="text-slate-300"><span class="wave">👋</span> Mi name is</span>
       </h2>
       <h1 className="text-3xl sm:text-6xl text-yellow-500 uppercase text-center">
         David Murillo
