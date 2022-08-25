@@ -49,7 +49,7 @@ const Contact = () => {
           <img src={contact_img} alt="pic" />
         </div>
       </div>
-      <ul  data-aos="fade-right" className="flex justify-center gap-6 pb-6 text-slate-400">
+      <ul className="flex justify-center gap-6 pb-6 text-slate-400">
         <li className="cursor-pointer hover:text-yellow-400 hover:scale-105 duration-300">
           <a
             onClick={() => {
