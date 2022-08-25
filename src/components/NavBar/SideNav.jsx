@@ -5,7 +5,7 @@ import {BsFillPersonLinesFill} from 'react-icons/bs'
 
 const SideNav = ({linkedInURL,githubURL,curriculumURL}) => {
   return (
-    <div className='hidden lg:flex fixed flex-col flex-end top-[35%] left-0'>
+    <div className='hidden lg:flex fixed flex-col flex-end top-[35%] left-0 z-40'>
             <ul>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600 rounded pl-4'>
                     <a onClick={() => window.open(linkedInURL, '_blank')} className='flex justify-between items-center w-full text-gray-300' href="/">
