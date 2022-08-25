@@ -45,7 +45,7 @@ const Contact = () => {
             </button>
           </form>
         </div>
-        <div className="hidden md:flex  max-w-full h-auto">
+        <div className="hidden md:flex max-w-full h-auto">
           <img src={contact_img} alt="pic" />
         </div>
       </div>
@@ -56,7 +56,6 @@ const Contact = () => {
               window.open(githubURL, "_blank");
             }}
             href="/"
-            
           >
             <FaGithub size={40} />
           </a>
@@ -72,9 +71,7 @@ const Contact = () => {
           </a>
         </li>
         <li className="cursor-pointer hover:text-yellow-400 hover:scale-105 duration-300">
-          <a
-            href="mailto:davidfmurillob@gmail.com"
-          >
+          <a href="mailto:davidfmurillob@gmail.com">
             <HiOutlineMail size={40} />
           </a>
         </li>

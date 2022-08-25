@@ -3,7 +3,11 @@ import projects from "./data/projects";
 
 const Projects = () => {
   return (
-    <div data-aos="fade-right" id="projects" className="p-4 mt-6 sm:px-14 md:px-16 lg:px-32 xl:px-44">
+    <div
+      data-aos="fade-right"
+      id="projects"
+      className="p-4 mt-6 sm:px-14 md:px-16 lg:px-32 xl:px-44"
+    >
       <h2 className="text-slate-300 sm:text-center text-4xl font-medium">
         My personal
       </h2>
@@ -34,7 +38,6 @@ const Projects = () => {
                         Technologies: {technologies}
                       </p>
                       <div className="flex flex-row space-x-4 ">
-                        
                         <a
                           className="h-12 px-5 mt-8 mr-3 inline-flex items-center text-slate-200 transition-colors duration-150 border border-yellow-500 rounded-lg focus:shadow-outline hover:bg-yellow-500 hover:text-mygray-600"
                           href={github}
@@ -62,18 +65,12 @@ const Projects = () => {
                       data-aos-delay="500"
                       data-aos-once="true"
                     >
-                      <img
-                        alt={title}
-                        className="m-8 "
-                        src={img}
-                        
-                      />
+                      <img alt={title} className="m-8 " src={img} />
                     </div>
                   </div>
                 </div>
               )
             )}
-            
           </div>
         </div>
       </div>

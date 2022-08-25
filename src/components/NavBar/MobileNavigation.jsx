@@ -23,12 +23,9 @@ function MobileNavigation() {
     />
   );
 
-    const closeByLink = () => {
-      setOpenMenu(!openMenu)
-    }
-
-    
-
+  const closeByLink = () => {
+    setOpenMenu(!openMenu);
+  };
 
   return (
     <nav className="flex flex-col sm:hidden pl-5 gap-4 justify-around align-baseline py-6 bg-mygray-500 overflow-hidden">
@@ -38,7 +35,7 @@ function MobileNavigation() {
         </a>
       </div>
       {openMenu ? hamburgerClose : hamburgerOpen}
-      {openMenu && <NavLinks closeByLink = {closeByLink} />}
+      {openMenu && <NavLinks closeByLink={closeByLink} />}
     </nav>
   );
 }
