@@ -8,7 +8,7 @@ const Navbar = () => {
   const linkedInURL = "https://www.linkedin.com/in/david-murillo-15a62a217/";
   const githubURL = "https://github.com/davidfmurillob";
   const curriculumURL =
-    "https://drive.google.com/file/d/10hrUhyy8bpAVzWCNAnQyPMwMYLzGqtn6/view?usp=sharing";
+    "https://drive.google.com/file/d/1RNohQr_v2rBcWV3l3KQBcy_REPgA2qHy/view?usp=sharing";
 
   return (
     <>
