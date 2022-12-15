@@ -55,7 +55,7 @@ const Contact = () => {
             onClick={() => {
               window.open(githubURL, "_blank");
             }}
-            href="/"
+            href="#0"
           >
             <FaGithub size={40} />
           </a>
@@ -65,7 +65,7 @@ const Contact = () => {
             onClick={() => {
               window.open(linkedInURL, "_blank");
             }}
-            href="/"
+            href="#0"
           >
             <FaLinkedin size={40} />
           </a>

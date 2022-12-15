@@ -11,7 +11,7 @@ const SideNav = ({ linkedInURL, githubURL, curriculumURL }) => {
           <a
             onClick={() => window.open(linkedInURL, "_blank")}
             className="flex justify-between items-center w-full text-gray-300"
-            href="/"
+            href="#0"
           >
             Linkedin <FaLinkedin size={30} />
           </a>
@@ -20,7 +20,7 @@ const SideNav = ({ linkedInURL, githubURL, curriculumURL }) => {
           <a
             onClick={() => window.open(githubURL, "_blank")}
             className="flex justify-between items-center w-full text-gray-300"
-            href="/"
+            href="#0"
           >
             Github <FaGithub size={30} />
           </a>
@@ -37,7 +37,7 @@ const SideNav = ({ linkedInURL, githubURL, curriculumURL }) => {
           <a
             onClick={() => window.open(curriculumURL, "_blank")}
             className="flex justify-between items-center w-full text-mygray-500"
-            href="/"
+            href="#0"
           >
             Curriculum <BsFillPersonLinesFill size={30} />
           </a>
