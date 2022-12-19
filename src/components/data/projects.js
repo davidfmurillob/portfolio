@@ -2,7 +2,7 @@ const projects = [
     {
         "id": 1,
         "title": "AcomerTípico",
-        "description": "An ecommerce App to impulse the local gastronomy. ",
+        "description": "An ecommerce App to impulse the local gastronomy. The project counts with a shopping cart and with an admin dashboard.",
         "technologies": "React, Javascript, CSS, Tailwind, Sass.",
         "github": "https://github.com/davidfmurillob/acomertipico",
         "demo": "https://davidfmurillob.github.io/acomertipico/",
